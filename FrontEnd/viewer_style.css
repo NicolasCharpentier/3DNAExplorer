@@ -1,0 +1,91 @@
+/*---3D VIEWER---*/
+
+
+
+body{
+    overflow: hidden;
+    font-family: "Arial", Arial, sans-serif;
+    font-weight: 600;
+}
+
+ul{
+    width: 300px;
+    list-style: none;
+    bottom: 0px;
+    right: 10px;
+    position: absolute;
+    text-align: center;
+    background: white;
+    padding: 10px;
+}
+
+#a{
+    width: 50px;
+    height: 35px;
+    padding-top: 15px;
+    background: #7908AA;
+    color: white;
+    position: relative;
+    display: inline-block;
+}
+
+#t{
+    width: 50px;
+    height: 35px;
+    padding-top: 15px;
+    background: #FF7C00;
+    color: white;
+    display: inline-block;
+}
+
+#g{
+    width: 50px;
+    height: 35px;
+    padding-top: 15px;
+    background: #04859D;
+    color: white;
+    display: inline-block;
+}
+
+#c{
+    width: 50px;
+    height: 35px;
+    padding-top: 15px;
+    background: #F3FD00;
+    display: inline-block;
+}
+
+#error{
+    width: 50px;
+    height: 35px;
+    padding-top: 15px;
+    background: grey;
+    color: white;
+    display: inline-block;
+}
+
+.standard{
+    padding-top: 15px;
+    padding-left: 15px;
+    color: black;
+    list-style: none;
+    text-align: left;
+}
+
+span{
+
+    font-weight: 100;
+    font-size: 14px;
+}
+
+#logo{
+    left: 0px;
+    top: 0px;
+    background: white;
+    padding: 15px;
+    position: absolute;
+}
+
+#logo img{
+    width: 400px;
+}

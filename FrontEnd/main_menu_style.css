@@ -1,0 +1,95 @@
+/*---MAIN MENU---*/
+
+#logo {
+    width: 630px;
+    margin-left:30%;
+    margin-top: 10%;
+}
+
+#logo a img {
+    opacity: 0.3;/* l'opacite que vous voulez au depart */
+    border: none;/* enlever les border d'une image en lien */
+    z-index: 0;
+    -ms-filter: "prodig:DXImageTransform.Microsoft.Alpha(Opacity=25)"; /* Hack IE8 */
+    filter: alpha(opacity = 25); /* Hack IE 5-7 */
+    -webkit-transition: opacity 0.5s ease-in-out;/* transition pour Chrome et Safari */
+    -moz-transition: opacity 0.5s ease-in-out;/* transition pour Firefox */
+    -o-transition: opacity 0.5s ease-in-out;/* transition pour Opéra */
+    transition: opacity 0.5s ease-in-out; /* on écrit cette ligne à la fin de façon à ce que ce soit elle qui soit prise en compte lorsque l'attribut transition sera pris en compte par tous les navigateurs */
+
+}
+
+#logo a:hover img, #logo a:focus img {
+    opacity: 0.9; /* opacite au survol */
+    -ms-filter:"prodig:DXImageTransform.Microsoft.Alpha(Opacity=90)"; /* Hack IE 8 */
+    filter: alpha(opacity = 90); /* Hack IE 5-7 */
+}
+
+.push_button{
+    position:relative;
+    width:200px;
+    color:#FFF;
+    display:block;
+    text-decoration:none;
+    margin-top: 5%;
+    margin-left:40%;
+    border-radius:5px;
+    border:solid 1px #23564F;
+    background:#40A497;
+    text-align:center;
+    padding:20px 30px;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+    -webkit-box-shadow: 0px 9px 0px #23564F;
+    -moz-box-shadow: 0px 9px 0px #23564F;
+    box-shadow: 0px 9px 0px #23564F;
+}
+.push_button:hover{
+    color:#000;
+    background:#85F9E9;
+    box-shadow: 0px 9px 0px #1FA997;
+    -webkit-box-shadow: 0px 9px 0px #1FA997;
+    -moz-box-shadow: 0px 9px 0px #1FA997;
+    border:solid 1px #1FA997;
+}
+
+.push_button:active{
+    -webkit-box-shadow: 0px 2px 0px #23564F;
+    -moz-box-shadow: 0px 2px 0px #23564F;
+    box-shadow: 0px 2px 0px #23564F;
+    position:relative;
+    top:7px;
+}
+
+
+
+
+* { margin: 0; padding: 0; }
+
+html { overflow-y: scroll; }
+
+.clear {
+    clear: both;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+body {
+    color: #eee;
+    cursor: url(mouse.png), default;
+}
+
+#body {
+    background: url(background.png) repeat 5% 5%;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+
+
